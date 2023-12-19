@@ -1,0 +1,48 @@
+.mainbody2 {
+    background-color: black;
+    position: relative;
+    overflow: hidden;
+    height: 30vh;
+}
+
+.detailedbody {
+    position: relative;
+    overflow: hidden;
+    height: 5vh;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+}
+
+.absolute_text {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    color: white;
+    font-size: 3rem;
+    font-weight: 100;
+}
+
+.scrolling-bar {
+    position: absolute;
+    top: 0;
+    left: 50%;
+    transform: translate(-50%, -50%);
+    height: 4px;
+    background: linear-gradient(to right, #151516, rgb(236, 227, 227), #131414);
+    transition: width 0.5s ease;
+}
+
+.bols_container {
+    height: 100vh;
+    color: white;
+}
+
+.mainbody2 {
+    color: white;
+    display: flex;
+    justify-content: center;
+    padding-top: 25px;
+    font-size: 1.3rem;
+    
+}
