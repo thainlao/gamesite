@@ -8,9 +8,11 @@ const AllGames = () => {
     const [showScrollToTop, setShowScrollToTop] = useState(false);
     const [filteredGames, setFilteredGames] = useState<any>([]);
     const [currentPage, setCurrentPage] = useState<number>(1);
-    const PAGE_SIZE = 20;
+    const [pageSize, setPageSize] = useState<number>(30);
     const observer = useRef<IntersectionObserver | null>(null);
-  
+
+    const [sortBy, setSortBy] = useState<string>('rating');
+
     useEffect(() => {
       observer.current = new IntersectionObserver(
         (entries) => {
@@ -37,11 +39,20 @@ const AllGames = () => {
     }, [filteredGames]);
   
     useEffect(() => {
-      const sortedGames = games.топ_50_игр.sort(
-        (a, b) => b['рейтинг Metacritic'] - a['рейтинг Metacritic']
-      );
-      setFilteredGames(sortedGames.slice(0, PAGE_SIZE));
-    }, []);
+      const sortedGames = games.топ_50_игр.slice().sort((a, b) => {
+        if (sortBy === 'rating') {
+          return b['рейтинг Metacritic'] - a['рейтинг Metacritic'];
+        } else if (sortBy === 'popularity') {
+          return b['рейтинг TLGames'] - a['рейтинг TLGames'];
+        }
+        return 0;
+      });
+  
+      const startIndex = (currentPage - 1) * pageSize;
+      const endIndex = startIndex + pageSize;
+  
+      setFilteredGames(sortedGames.slice(0, endIndex));
+    }, [sortBy, currentPage, pageSize]);
   
     const handleScroll = () => {
       const scrollThreshold = 1700;
@@ -50,21 +61,39 @@ const AllGames = () => {
     };
 
     const handleLoadMore = () => {
-        const nextPage = currentPage + 1;
-        const endIndex = nextPage * PAGE_SIZE;
-        const gamesToShow = games.топ_50_игр.slice(0, endIndex);
-        setFilteredGames(gamesToShow);
-        setCurrentPage(nextPage)
-    }
+      setPageSize((prevPageSize) => prevPageSize + 15);
+    };
 
     const handleScrollToTop = () => {
         window.scrollTo({ top: 0, behavior: 'smooth' });
-      };
+    };
+
+    const handleSortByRating = () => {
+      setSortBy('rating');
+      setCurrentPage(1);
+      setPageSize(30); // Reset page size when changing sorting criteria
+    };
+  
+    const handleSortByPopularity = () => {
+      setSortBy('popularity');
+      setCurrentPage(1);
+      setPageSize(30); // Reset page size when changing sorting criteria
+    };
 
     return (
         <div className='games_container'>
             <div className='games_section'>
                 <h2>ЛУЧШИЕ ИГРЫ НА ПК</h2>
+
+                <div className='sortby'>
+                <button className={sortBy === 'rating' ? 'active' : ''} onClick={handleSortByRating}>
+                  По рейтингу
+                </button>
+                <button className={sortBy === 'popularity' ? 'active' : ''} onClick={handleSortByPopularity}>
+                  По популярности
+                </button>
+              </div>
+
                 <div className='game_grid'>
                     {filteredGames.map((game: IGame) => (
                         <div className='game' key={game.id}>
@@ -87,7 +116,7 @@ const AllGames = () => {
                     ))}
                 </div>
                 {filteredGames.length < games.топ_50_игр.length && (
-                    <button className='loadmore' onClick={handleLoadMore}>Загрузить</button>
+                    <button className='loadmore' onClick={handleLoadMore}>&or;</button>
                 )}
             </div>
             {showScrollToTop && (

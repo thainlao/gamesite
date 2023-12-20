@@ -1,5 +1,5 @@
 import '../styles/mainpage2.css';
-import React, { useEffect, useState } from 'react';
+import { useEffect, useState } from 'react';
 
 const Mainpage2 = () => {
     const [scrollWidth, setScrollWidth] = useState(20);

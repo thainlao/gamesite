@@ -1,0 +1,640 @@
+{
+    "freeGames": [
+      {
+        "название": "Perfect World",
+        "about": "Идеальный Мир ждет тебя! Отвлекись от серых будней с Perfect World · Разнообразные PVP режимы. Множество PVE подземелей. Свободные полеты. Сочетания рас и классов",
+        "разработчик": "Perfect World Entertainment",
+        "сайт игры": "perfectworld.com",
+        "дата выхода": "19 августа 2008",
+        "рейтинг Metacritic": 69,
+        "рейтинг TLGames": 76,
+        "платформы": [
+          "PC"
+        ],
+        "img": "https://pic.rutubelist.ru/video/6c/1f/6c1f72a4367333491799ab5f2c932c50.jpg",
+        "online": [
+          "multiplayer"
+        ],
+        "genre": [
+          "MMORPG",
+          "Fantasy"
+        ],
+        "screenshots": [
+          "https://pic.rutubelist.ru/video/fd/67/fd678fef9f442431724b972561168a12.jpg",
+          "https://w-mod.ru/wp-content/uploads/2021/06/Perfect-World.jpg",
+          "https://kartinki.pics/uploads/posts/2022-03/1647138166_12-kartinkin-net-p-pv-kartinki-12.jpg"
+        ],
+        "системные требования": {
+          "минимальные": {
+            "видеокарта": "Integrated Graphics",
+            "процессор": "Intel Core i3",
+            "ОЗУ": "4 Гб",
+            "место на диске": "20 Гб",
+            "сеть": "Широкополосное соединение",
+            "звук": "DirectX compatible"
+          },
+          "рекомендованные": {
+            "видеокарта": "NVIDIA GeForce GTX 1050 or AMD Radeon RX 560",
+            "процессор": "Intel Core i5",
+            "ОЗУ": "8 Гб",
+            "место на диске": "20 Гб",
+            "сеть": "Широкополосное соединение",
+            "звук": "DirectX compatible"
+          }
+        },
+        "id": 50
+      },
+      {
+        "название": "Lineage 2",
+        "about": "Примерьте на себя роль легендарного воина, стремящегося найти свое место в эпицентре битвы! Lineage II перенесет вас в обширную MMORPG, где вы сами создадите свою судьбу в королевстве Аден. Приготовьтесь к приключениям, участвуя в колоссальных осадных сражениях в PvP, участвуйте в эпических рейдах, создайте свой собственный клан союзников или заведите собственную конюшню домашних животных и скакунов, чтобы путешествовать по эпическому миру Lineage II!",
+        "разработчик": "NCSOFT",
+        "сайт игры": "lineage2.com",
+        "дата выхода": "27 апреля 2004",
+        "рейтинг Metacritic": 62,
+        "рейтинг TLGames": 71,
+        "платформы": [
+          "PC"
+        ],
+        "img": "https://1.bp.blogspot.com/_NrG-zmKWQCg/SPhtqWINs2I/AAAAAAAAAHA/EIJNxg2Bsao/s1600/619757873.jpg",
+        "online": [
+          "multiplayer"
+        ],
+        "genre": [
+          "MMORPG",
+          "Fantasy"
+        ],
+        "screenshots": [
+          "http://4.bp.blogspot.com/-0xyHDbsAjqM/TpdNCgtZ77I/AAAAAAAAIMY/D2mVph_rLgw/s1200/Goddess+of+Destruction+96.jpg",
+          "https://tthunder.clan.su/files/sng.jpg",
+          "https://i.ytimg.com/vi/fUZzizEktIo/maxresdefault.jpg"
+        ],
+        "системные требования": {
+          "минимальные": {
+            "видеокарта": "Integrated Graphics",
+            "процессор": "Intel Core i3",
+            "ОЗУ": "4 Гб",
+            "место на диске": "30 Гб",
+            "сеть": "Широкополосное соединение",
+            "звук": "DirectX compatible"
+          },
+          "рекомендованные": {
+            "видеокарта": "NVIDIA GeForce GTX 1050 or AMD Radeon RX 560",
+            "процессор": "Intel Core i5",
+            "ОЗУ": "8 Гб",
+            "место на диске": "30 Гб",
+            "сеть": "Широкополосное соединение",
+            "звук": "DirectX compatible"
+          }
+        },
+        "id": 51
+      },
+      {
+        "название": "Lost Ark",
+        "about": "Отправляйтесь в одиссею за Потерянным ковчегом в огромном, динамичном мире: исследуйте новые земли, ищите потерянные сокровища и испытайте себя в захватывающих боевых действиях. Определите свой стиль боя с помощью своего класса и продвинутого класса, а также настройте свои навыки, оружие и снаряжение, чтобы проявить всю свою мощь, сражаясь с ордами врагов, колоссальными боссами и темными силами, стремящимися к могуществу Ковчега, в этой захватывающей бесплатной RPG.",
+        "разработчик": "Smilegate RPG",
+        "сайт игры": "lostark.com",
+        "дата выхода": "12 февраля 2022",
+        "рейтинг Metacritic": 81,
+        "рейтинг TLGames": 74,
+        "платформы": [
+          "PC"
+        ],
+        "img": "https://cdn.cloudflare.steamstatic.com/steam/apps/1599340/header.jpg?t=1702454470",
+        "online": [
+          "multiplayer"
+        ],
+        "genre": [
+          "Action RPG",
+          "Fantasy"
+        ],
+        "screenshots": [
+          "https://cdn.cloudflare.steamstatic.com/steam/apps/1599340/ss_b9c562ad66414ec37cf448f2f9d19d70009129ef.600x338.jpg?t=1702454470",
+          "https://cdn.cloudflare.steamstatic.com/steam/apps/1599340/ss_489519a55f1fcef124413a36232598017429a8d2.600x338.jpg?t=1702454470",
+          "https://cdn.cloudflare.steamstatic.com/steam/apps/1599340/ss_fd839dd6657095e6e61c45bcaea0fabbf1434096.600x338.jpg?t=1702454470"
+        ],
+        "системные требования": {
+          "минимальные": {
+            "видеокарта": "NVIDIA GeForce GTX 750 or AMD Radeon R7 360",
+            "процессор": "Intel Core i3",
+            "ОЗУ": "6 Гб",
+            "место на диске": " 60 GB",
+            "сеть": "Широкополосное соединение",
+            "звук": "DirectX compatible"
+          },
+          "рекомендованные": {
+            "видеокарта": "NVIDIA GeForce GTX 1060 or AMD Radeon RX 580",
+            "процессор": "Intel Core i5",
+            "ОЗУ": "16 Гб",
+            "место на диске": " 60 GB",
+            "сеть": "Широкополосное соединение",
+            "звук": "DirectX compatible"
+          }
+        },
+        "id": 52
+      },
+      {
+        "название": "War Thunder",
+        "about": "War Thunder is a free-to-play vehicular combat multiplayer game. Players can engage in intense battles with tanks, aircraft, and naval vessels from various eras.",
+        "разработчик": "Gaijin Entertainment",
+        "сайт игры": "warthunder.com",
+        "дата выхода": "N/A",
+        "рейтинг Metacritic": 75,
+        "рейтинг TLGames": 84,
+        "платформы": [
+          "PC",
+          "XBOX",
+          "PS4"
+        ],
+        "img": "https://example.com/war_thunder_image.jpg",
+        "online": [
+          "multiplayer"
+        ],
+        "genre": [
+          "Vehicular Combat",
+          "Simulation"
+        ],
+        "screenshots": [
+          "https://example.com/screenshots/war_thunder_1.jpg",
+          "https://example.com/screenshots/war_thunder_2.jpg",
+          "https://example.com/screenshots/war_thunder_3.jpg"
+        ],
+        "системные требования": {
+          "минимальные": {
+            "видеокарта": "NVIDIA GeForce GTX 650 or AMD Radeon HD 7770",
+            "процессор": "Intel Core i3",
+            "ОЗУ": "4 Гб",
+            "место на диске": "30 Гб",
+            "сеть": "Широкополосное соединение",
+            "звук": "DirectX compatible"
+          },
+          "рекомендованные": {
+            "видеокарта": "NVIDIA GeForce GTX 960 or AMD Radeon R9 270",
+            "процессор": "Intel Core i5",
+            "ОЗУ": "8 Гб",
+            "место на диске": "30 Гб",
+            "сеть": "Широкополосное соединение",
+            "звук": "DirectX compatible"
+          }
+        },
+        "id": 53
+      },
+      {
+        "название": "Fortnite",
+        "about": "Fortnite is a popular free-to-play battle royale game with a vibrant, ever-changing world. Players can compete solo or in teams to be the last one standing.",
+        "разработчик": "Epic Games",
+        "сайт игры": "fortnite.com",
+        "дата выхода": "N/A",
+        "рейтинг Metacritic": 75,
+        "рейтинг TLGames": 84,
+        "платформы": [
+          "PC",
+          "XBOX",
+          "PS4",
+          "Switch",
+          "Mobile"
+        ],
+        "img": "https://example.com/fortnite_image.jpg",
+        "online": [
+          "multiplayer"
+        ],
+        "genre": [
+          "Battle Royale",
+          "Action"
+        ],
+        "screenshots": [
+          "https://example.com/screenshots/fortnite_1.jpg",
+          "https://example.com/screenshots/fortnite_2.jpg",
+          "https://example.com/screenshots/fortnite_3.jpg"
+        ],
+        "системные требования": {
+          "минимальные": {
+            "видеокарта": "NVIDIA GeForce GTX 660 or AMD Radeon HD 7870",
+            "процессор": "Intel Core i3",
+            "ОЗУ": "8 Гб",
+            "место на диске": "20 Гб",
+            "сеть": "Широкополосное соединение",
+            "звук": "DirectX compatible"
+          },
+          "рекомендованные": {
+            "видеокарта": "NVIDIA GeForce GTX 1060 or AMD Radeon RX 580",
+            "процессор": "Intel Core i5",
+            "ОЗУ": "8 Гб",
+            "место на диске": "20 Гб",
+            "сеть": "Широкополосное соединение",
+            "звук": "DirectX compatible"
+          }
+        },
+        "id": 54
+    },
+    {
+        "название": "Unturned",
+        "about": "Unturned is a free-to-play survival game set in an open-world environment. Players must scavenge for resources, build shelter, and survive against zombies and other players.",
+        "разработчик": "Smartly Dressed Games",
+        "сайт игры": "unturned.com",
+        "дата выхода": "N/A",
+        "рейтинг Metacritic": 75,
+        "рейтинг TLGames": 84,
+        "платформы": [
+          "PC"
+        ],
+        "img": "https://example.com/unturned_image.jpg",
+        "online": [
+          "multiplayer"
+        ],
+        "genre": [
+          "Survival",
+          "Open World"
+        ],
+        "screenshots": [
+          "https://example.com/screenshots/unturned_1.jpg",
+          "https://example.com/screenshots/unturned_2.jpg",
+          "https://example.com/screenshots/unturned_3.jpg"
+        ],
+        "системные требования": {
+          "минимальные": {
+            "видеокарта": "Integrated Graphics",
+            "процессор": "Dual-core 2.4 GHz",
+            "ОЗУ": "4 Гб",
+            "место на диске": "8 Гб",
+            "сеть": "Широкополосное соединение",
+            "звук": "DirectX compatible"
+          },
+          "рекомендованные": {
+            "видеокарта": "Dedicated Graphics",
+            "процессор": "Quad-core 3.0 GHz",
+            "ОЗУ": "8 Гб",
+            "место на диске": "10 Гб",
+            "сеть": "Широкополосное соединение",
+            "звук": "DirectX compatible"
+          }
+        },
+        "id": 55
+      },
+      {
+        "название": "Team Fortress 2",
+        "about": "Team Fortress 2 is a free-to-play team-based Шутер with a variety of unique characters and game modes. Players can engage in fast-paced battles and strategic team play.",
+        "разработчик": "Valve",
+        "сайт игры": "teamfortress.com",
+        "дата выхода": "N/A",
+        "рейтинг Metacritic": 75,
+        "рейтинг TLGames": 84,
+        "платформы": [
+          "PC",
+          "XBOX",
+          "PS4"
+        ],
+        "img": "https://example.com/team_fortress_2_image.jpg",
+        "online": [
+          "multiplayer"
+        ],
+        "genre": [
+          "Шутер",
+          "Team-Based"
+        ],
+        "screenshots": [
+          "https://example.com/screenshots/team_fortress_2_1.jpg",
+          "https://example.com/screenshots/team_fortress_2_2.jpg",
+          "https://example.com/screenshots/team_fortress_2_3.jpg"
+        ],
+        "системные требования": {
+          "минимальные": {
+            "видеокарта": "N/A",
+            "процессор": "1.7 GHz Processor",
+            "ОЗУ": "512 Мб",
+            "место на диске": "15 Гб",
+            "сеть": "Широкополосное соединение",
+            "звук": "DirectX compatible"
+          },
+          "рекомендованные": {
+            "видеокарта": "N/A",
+            "процессор": "Pentium 4 (3.0 GHz) or equivalent",
+            "ОЗУ": "1 Гб",
+            "место на диске": "15 Гб",
+            "сеть": "Широкополосное соединение",
+            "звук": "DirectX compatible"
+          }
+        },
+        "id": 56
+      },
+      {
+        "название": "Valorant",
+        "about": "Valorant is a free-to-play tactical Шутер with unique characters known as Agents. Players engage in team-based matches with a focus on strategy and precise gunplay.",
+        "разработчик": "Riot Games",
+        "сайт игры": "playvalorant.com",
+        "дата выхода": "N/A",
+        "рейтинг Metacritic": 75,
+        "рейтинг TLGames": 84,
+        "платформы": [
+          "PC"
+        ],
+        "img": "https://example.com/valorant_image.jpg",
+        "online": [
+          "multiplayer"
+        ],
+        "genre": [
+          "Шутер",
+          "Экшен"
+        ],
+        "screenshots": [
+          "https://example.com/screenshots/valorant_1.jpg",
+          "https://example.com/screenshots/valorant_2.jpg",
+          "https://example.com/screenshots/valorant_3.jpg"
+        ],
+        "системные требования": {
+          "минимальные": {
+            "видеокарта": "Intel HD 3000",
+            "процессор": "2.4 GHz Dual-core",
+            "ОЗУ": "4 Гб",
+            "место на диске": "20 Гб",
+            "сеть": "Широкополосное соединение",
+            "звук": "DirectX compatible"
+          },
+          "рекомендованные": {
+            "видеокарта": "GTX 1050 Ti",
+            "процессор": "3.0 GHz Quad-core",
+            "ОЗУ": "4 Гб",
+            "место на диске": "20 Гб",
+            "сеть": "Широкополосное соединение",
+            "звук": "DirectX compatible"
+          }
+        },
+        "id": 57
+      },
+      {
+        "название": "Overwatch 2",
+        "about": "многопользовательская бесплатная компьютерная игра в жанре шутера от первого лица, разрабатываемая и издаваемая компанией Blizzard Entertainment. Являясь продолжением геройского шутера Overwatch, игра сохраняет привычную игровую атмосферу для режима PvP и добавляет постоянные кооперативные режимы. Основным изменением в PvP режиме стало уменьшение размера команды с шести до пяти человек, что потребовало переработки нескольких персонажей. Выход игры в раннем доступе состоялся 4 октября 2022 года для Windows, PlayStation 4, PlayStation 5, Xbox One, Xbox Series X/S и Nintendo Switch.",
+        "разработчик": "Blizzard Entertainment",
+        "сайт игры": "playoverwatch.com",
+        "дата выхода": "10 августа 2023",
+        "рейтинг Metacritic": 79,
+        "рейтинг TLGames": 71,
+        "платформы": [
+          "PC",
+          "XBOX",
+          "PS4"
+        ],
+        "img": "https://cdn.cloudflare.steamstatic.com/steam/apps/2357570/header.jpg?t=1701803297",
+        "online": [
+          "multiplayer"
+        ],
+        "genre": [
+          "Шутер",
+          "Экшен"
+        ],
+        "screenshots": [
+          "https://cdn.cloudflare.steamstatic.com/steam/apps/2357570/ss_a8b0bf1c275a531b40401bc24eec13376efe5b36.600x338.jpg?t=1701803297",
+          "https://cdn.cloudflare.steamstatic.com/steam/apps/2357570/ss_3ea267f6d1a65a17d7ee71ced73d4fcd586ea956.600x338.jpg?t=1701803297",
+          "https://cdn.cloudflare.steamstatic.com/steam/apps/2357570/ss_e2f208d5c3ad86e07417365915c024ed31b7568c.600x338.jpg?t=1701803297"
+        ],
+        "системные требования": {
+          "минимальные": {
+            "видеокарта": "Серия NVIDIA® GeForce® GTX 600, серия AMD Radeon™ HD 7000",
+            "процессор": "Intel® Core™ i3 или AMD Phenom™ X3 8650",
+            "ОЗУ": "6 GB ОЗУ",
+            "место на диске": "50 GB",
+            "сеть": "Широкополосное подключение к интернету",
+            "звук": "DirectX: версии 11"
+          },
+          "рекомендованные": {
+            "видеокарта": "NVIDIA® GeForce® GTX 1060/ GeForce® GTX 1650 или AMD R9 380/AMD RX 6400 или Intel® Arc™ A770",
+            "процессор": "Intel® Core™ i7 или AMD Ryzen™ 5",
+            "ОЗУ": "8 GB ОЗУ",
+            "место на диске": "50 GB",
+            "сеть": "Широкополосное подключение к интернету",
+            "звук": "DirectX: версии 11"
+          }
+        },
+        "id": 58
+      },
+      {
+        "название": "Warzone",
+        "рейтинг Metacritic": 80,
+        "рейтинг TLGames": 72,
+        "about": "Добро пожаловать в Call of Duty®: Warzone™ - на бесплатную арену для массовых сражений, где теперь доступна новая карта Urzikstan. Зажигайте Встречайте новую большую карту для 'Королевской битвы' под названием Urzikstan, которая приведет в восторг и новичков, и опытных ветеранов. Ищите награды Открывайте ящики с трофеями и выполняйте контракты, чтобы создать свой арсенал и получить тактическое преимущество.",
+        "разработчик": "Infinity Ward",
+        "сайт игры": "callofduty.com/warzone",
+        "дата выхода": "10 марта 2020",
+        "платформы": [
+          "PC",
+          "XBOX",
+          "PS4"
+        ],
+        "img": "https://cdn.cloudflare.steamstatic.com/steam/apps/1962663/header.jpg?t=1702323684",
+        "online": [
+          "single",
+          "cooperative"
+        ],
+        "genre": [
+          "Экшен",
+          "Шутер"
+        ],
+        "screenshots": [
+          "https://cdn.cloudflare.steamstatic.com/steam/apps/1962663/ss_5a0ec0a81182d8cbecfa4ae350482734371316fc.600x338.jpg?t=1702323684",
+          "https://cdn.cloudflare.steamstatic.com/steam/apps/1962663/ss_c08f162a6db38c06097eec896583a2f7f6a679ae.600x338.jpg?t=1702323684",
+          "https://cdn.cloudflare.steamstatic.com/steam/apps/1962663/ss_c8592d9eac63f07711e387304bbdf959a6ef2ff5.600x338.jpg?t=1702323684"
+        ],
+        "системные требования": {
+          "минимальные": {
+            "видеокарта": "NVIDIA® GeForce® GTX 960 или AMD Radeon™ RX 470 - конфигурация, совместимая с DirectX 12.0",
+            "процессор": "Intel® Core™ i3-6100 / Core™ i5-2500K или AMD Ryzen™ 3 1200",
+            "ОЗУ": "8 GB ОЗУ",
+            "место на диске": "125 GB",
+            "сеть": "Интернет-соединение",
+            "звук": "DirectX: версии 12"
+          },
+          "рекомендованные": {
+            "видеокарта": "NVIDIA® GeForce® GTX 1060 или AMD Radeon™ RX 580 - конфигурация, совместимая с DirectX 12.0",
+            "процессор": "Intel® Core™ i5-6600K / Core™ i7-4770 или AMD Ryzen™ 5 1400",
+            "ОЗУ": "12 GB ОЗУ",
+            "место на диске": "125 GB",
+            "сеть": "Интернет-соединение",
+            "звук": "DirectX: версии 12"
+          }
+        },
+        "id": 59
+      },
+      {
+        "название": "Dota 2",
+        "about": "Самая популярная игра в Steam Ежедневно миллионы игроков по всему миру сражаются от лица одного из более сотни героев Dota 2, и даже после тысячи часов в ней есть чему научиться. Благодаря регулярным обновлениям игра живёт своей жизнью: геймплей, возможности и герои постоянно преображаются. Одно поле боя, неиссякаемые возможности Игра может похвастаться бесконечным разнообразием героев, способностей и предметов, благодаря чему каждый матч уникален. Любой герой может исполнять множество ролей, и для каждой нужды найдутся подходящие предметы. Здесь вас ничто не ограничивает — вы сами выбираете, какой стратегии следовать. Все герои бесплатны Равные соревновательные возможности — главная гордость игры. Чтобы все находились в одинаковом положении, её основа — в частности, обширный список героев — доступна каждому игроку. Если хотите, вы можете коллекционировать предметы, видоизменяющие как героев, так и мир вокруг них, но всё необходимое для вашего первого матча уже есть в игре. Зовите друзей и играйте вместе Dota 2 многогранна, и она не стоит на месте, но вступить в игру никогда не поздно. Научитесь основам в матче против ботов. Опробуйте возможности героев. А затем вступайте в битву с игроками вашего уровня и поведения: об этом позаботится система подбора игры.",
+        "разработчик": "Valve",
+        "сайт игры": "dota2.com",
+        "дата выхода": "9 июля 2013",
+        "рейтинг Metacritic": 75,
+        "рейтинг TLGames": 84,
+        "платформы": [
+          "PC"
+        ],
+        "img": "https://cdn.cloudflare.steamstatic.com/steam/apps/570/header.jpg?t=1702685169",
+        "online": [
+          "multiplayer"
+        ],
+        "genre": [
+          "MOBA",
+          "Strategy"
+        ],
+        "screenshots": [
+          "https://cdn.cloudflare.steamstatic.com/steam/apps/570/ss_ad8eee787704745ccdecdfde3a5cd2733704898d.600x338.jpg?t=1702685169",
+          "https://cdn.cloudflare.steamstatic.com/steam/apps/570/ss_7ab506679d42bfc0c0e40639887176494e0466d9.600x338.jpg?t=1702685169",
+          "https://cdn.cloudflare.steamstatic.com/steam/apps/570/ss_c9118375a2400278590f29a3537769c986ef6e39.600x338.jpg?t=1702685169"
+        ],
+        "системные требования": {
+          "минимальные": {
+            "видеокарта": "NVIDIA GeForce 8600/9600GT, ATI/AMD Radeon HD2600/3600",
+            "процессор": "Dual-core from Intel or AMD at 2.8 GHz",
+            "ОЗУ": "4 Гб",
+            "место на диске": "60 GB",
+            "сеть": "Широкополосное соединение",
+            "звук": "DirectX compatible"
+          },
+          "рекомендованные": {
+            "видеокарта": "NVIDIA GeForce 8600/9600GT, ATI/AMD Radeon HD2600/3600",
+            "процессор": "Quad-core from Intel or AMD at 3.2 GHz",
+            "ОЗУ": "8 Гб",
+            "место на диске": "60 GB",
+            "сеть": "Широкополосное соединение",
+            "звук": "DirectX compatible"
+          }
+        },
+        "id": 60
+      },
+      {
+        "название": "Counter-Strike 2",
+        "about": "Более двух десятилетий Counter-Strike служит примером первоклассной соревновательной игры, путь развития которой определяют миллионы игроков со всего мира. Теперь пришло время нового этапа — Counter-Strike 2. Counter-Strike 2 — это бесплатное улучшение для CS:GO, которое знаменует собой крупнейший технологический скачок в истории серии. Оно разработано на движке Source 2 и модернизирует игру благодаря реалистичному и физически корректному рендерингу, организации сети по последнему слову технологий и улучшенным инструментам для мастерской сообщества. Кроме представленного в 1999 году классического игрового процесса, завязанного на достижении цели, Counter-Strike 2 включает: новые рейтинги CS и обновлённый премьер-режим; глобальные и региональные таблицы лидеров; улучшенные и воссозданные с нуля карты; принципиально новый динамический дым от гранат; игровой процесс, не зависящий от тикрейта; переосмысленные визуальные эффекты и звуки; все предметы инвентаря из CS:GO.",
+        "разработчик": "Valve",
+        "сайт игры": "blog.counter-strike.net",
+        "дата выхода": "21 августа 2012",
+        "рейтинг Metacritic": 75,
+        "рейтинг TLGames": 84,
+        "платформы": [
+          "PC",
+          "XBOX",
+          "PS4"
+        ],
+        "img": "https://cdn.cloudflare.steamstatic.com/steam/apps/730/header.jpg?t=1698860631",
+        "online": [
+          "multiplayer"
+        ],
+        "genre": [
+          "Шутер",
+          "Tactical"
+        ],
+        "screenshots": [
+          "https://cdn.cloudflare.steamstatic.com/steam/apps/730/ss_796601d9d67faf53486eeb26d0724347cea67ddc.600x338.jpg?t=1698860631",
+          "https://cdn.cloudflare.steamstatic.com/steam/apps/730/ss_d830cfd0550fbb64d80e803e93c929c3abb02056.600x338.jpg?t=1698860631",
+          "https://cdn.cloudflare.steamstatic.com/steam/apps/730/ss_13bb35638c0267759276f511ee97064773b37a51.600x338.jpg?t=1698860631"
+        ],
+        "системные требования": {
+          "минимальные": {
+            "видеокарта": "с 1 ГБ памяти или больше, совместимая с DirectX 11 и поддерживающая Shader Model 5.0",
+            "процессор": "Intel Core 2 Duo E6600 or AMD Phenom X3 8750 processor",
+            "ОЗУ": "2 Гб",
+            "место на диске": "85 GB",
+            "сеть": "Широкополосное соединение",
+            "звук": "DirectX compatible"
+          },
+          "рекомендованные": {
+            "видеокарта": "с 1 ГБ памяти или больше, совместимая с DirectX 11 и поддерживающая Shader Model 5.0",
+            "процессор": "Intel i5 2400 or AMD FX-8120",
+            "ОЗУ": "8 GB ОЗУ",
+            "место на диске": "5 GB",
+            "сеть": "Широкополосное соединение",
+            "звук": "DirectX compatible"
+          }
+        },
+        "id": 61
+      },
+      {
+        "название": "Path of Exile",
+        "about": "Вы - изгнанник, который пытается выжить в мрачном мире Рэкласта. Сражаясь за свою жизнь, вы пытаетесь отомстить тем, кто обрёк вас на эту участь. Path of Exile создана игроками для игроков. Это онлайн Action RPG в тёмном фэнтэзийном мире. Игра полностью бесплатна и не имеет Pay-to-Win элементов. Основные особенности Полная свобода выбора На мрачный материк Рэкласт были изгнаны 7 героев: Охотница, Бандит, Ведьма, Жрец, Дикарь, Гладиатор и Дворянка. Пройдите путь одним из персонажей от проклятых берегов каннибалов, до заброшенных шахт в Македах. Глубокая система развития персонажа Создавайте сотни связок камней умений и продвигайтесь по огромному древу пассивных навыков. Совмещайте камни умений, поддержки и активаторы, чтобы создать уникальную комбинацию для уничтожения врагов. Сюжетная линия и случайные события Продвигайтесь по сюжетной линии, попутно выполняя случайные задания мастеров, исполняйте судьбоносные пророчества и посещайте осквернённые области. Каждое прохождение будет отличаться от предыдущего, а разнообразные случайные миссии вы сможете встретить на протяжении всей игры. Смертельные артефакты Path of Exile целиком и полностью построена вокруг предметов. Находите и обменивайтесь волшебными, редкими и уникальными предметами, которые усиливают вашего героя. Соревновательные события Принимайте участие в трёхмесячных лигах, ежедневных гонках, забегах по лабиринту и PvP сражениях. Для каждого события в Path of Exile есть отдельный ладдер с ценными призами для победителей. Создайте своё убежище Добейтесь уважения одного из мастеров и создайте своё собственное убежище. Приглашайте других мастеров, устанавливайте станки для улучшения предметов и изменяйте внешний вид убежища сотнями декораций. Высокоуровневые карты Финальные области нашей игры можно найти в виде карт - предметов, сложность которых можно изменять по своему желанию, для получения более ценных наград. Честный магазин без Pay-to-Win Мы считаем, что платежи не должны давать игрового преимущества. Вы никогда не получите преимущества в игре за покупку микротранзакций.",
+        "разработчик": "Grinding Gear Games",
+        "сайт игры": "pathofexile.com",
+        "дата выхода": "N/A",
+        "рейтинг Metacritic": 75,
+        "рейтинг TLGames": 84,
+        "платформы": [
+          "PC",
+          "XBOX",
+          "PS4"
+        ],
+        "img": "https://cdn.cloudflare.steamstatic.com/steam/apps/238960/header.jpg?t=1702939291",
+        "online": [
+          "multiplayer"
+        ],
+        "genre": [
+          "Action RPG",
+          "Hack and Slash"
+        ],
+        "screenshots": [
+          "https://cdn.cloudflare.steamstatic.com/steam/apps/238960/ss_584d5e30921df24b12f26853e406e0fc74dfd3d3.600x338.jpg?t=1702939291",
+          "https://cdn.cloudflare.steamstatic.com/steam/apps/238960/ss_20ad64b32e4a65c70a88d7dbe79200a4cc3c69bb.600x338.jpg?t=1702939291",
+          "https://cdn.cloudflare.steamstatic.com/steam/apps/238960/ss_a4cade6889788a13b53b071e819a822b8f763705.600x338.jpg?t=1702939291"
+        ],
+        "системные требования": {
+          "минимальные": {
+            "видеокарта": "NVIDIA® GeForce® GTX 650 Ti или ATI Radeon™ HD 7850",
+            "процессор": "Dual Core 3.0 GHz",
+            "ОЗУ": "8 Гб",
+            "место на диске": "40 GB",
+            "сеть": "Широкополосное соединение",
+            "звук": "DirectX compatible"
+          },
+          "рекомендованные": {
+            "видеокарта": "NVIDIA® GeForce® GTX 1050 Ti или ATI Radeon™ RX560",
+            "процессор": "x64-совместимый 4-х ядерный 3,2 ГГц",
+            "ОЗУ": "16 Гб",
+            "место на диске": "40 GB",
+            "сеть": "Широкополосное соединение",
+            "звук": "DirectX compatible"
+          }
+        },
+        "id": 62
+      },
+      {
+        "название": "Destiny 2",
+        "about": "Погрузитесь в мир Destiny 2, чтобы исследовать тайны Солнечной системы и испытать на себе возможности потрясающего шутера от первого лица. Откройте мощные стихийные способности и начните собирать уникальное оружие, броню и другое снаряжение, которое позволит вам создать неповторимого персонажа и разработать собственный игровой стиль. Самостоятельно или с друзьями проходите кинематографичный сюжет Destiny 2, участвуйте в сложных совместных миссиях или соревнуйтесь в различных режимах PvP-игры. Загрузите игру бесплатно и отправляйтесь к звездам – пусть о ваших подвигах слагают легенды! Захватывающий сюжет Вы – Страж, защитник Последнего города человечества в Солнечной системе, осажденного бесчисленными врагами. Вглядитесь в звездное небо и дайте отпор силам тьмы. Ваша легенда начинается сейчас. Классы Стражей Выберите закованного в броню титана, мистического варлока или неуловимого охотника. Титан Гордые и дисциплинированные титаны способны как на яростный штурм, так и на несокрушимую оборону. Размахнитесь пылающим молотом, рассекайте небо молниями и будьте готовы встретить любого соперника лицом к лицу. Ваш щит надежно защитит команду от атак врага. Варлок Варлоки превращают тайны Вселенной в грозное оружие, защищая себя и сокрушая врагов. Обрушьте на поле боя смертельный дождь, в мгновение ока уничтожающий орды врагов. Тот, кто осмелится бросить вам вызов, познает на себе истинную мощь Света. Охотник Ловкие и смелые охотники быстро двигаются и еще быстрее принимают решения. Осыпайте противника градом пуль из золотого пистолета, пролетая сквозь полчища врагов словно ветер, или наносите удары из темноты. Найдите врага, прицельтесь… и победите еще до начала битвы.",
+        "разработчик": "Bungie",
+        "сайт игры": "https://www.bungie.net/7/ru/Destiny",
+        "дата выхода": "1 октября 2019",
+        "рейтинг Metacritic": 85,
+        "рейтинг TLGames": 84,
+        "платформы": [
+          "PC",
+          "XBOX",
+          "PS4"
+        ],
+        "img": "https://cdn.cloudflare.steamstatic.com/steam/apps/1085660/header_russian.jpg?t=1703013975",
+        "online": [
+          "multiplayer"
+        ],
+        "genre": [
+          "MMORPG",
+          "Шутер",
+          "Экшен"
+        ],
+        "screenshots": [
+          "https://cdn.cloudflare.steamstatic.com/steam/apps/1085660/ss_7fcc82f468fcf8278c7ffa95cebf949bfc6845fc.600x338.jpg?t=1703013975",
+          "https://cdn.cloudflare.steamstatic.com/steam/apps/1085660/ss_c142f5078ace9f5e2eb2c80aa3bf768e156b4ee9.600x338.jpg?t=1703013975",
+          "https://cdn.cloudflare.steamstatic.com/steam/apps/1085660/ss_a9642404e586be28f856e8f02d038828f691a5ba.600x338.jpg?t=1703013975"
+        ],
+        "системные требования": {
+          "минимальные": {
+            "видеокарта": "NVIDIA® GeForce® GTX 650 Ti или ATI Radeon™ HD 7850",
+            "процессор": "Intel® Core™ i3 3250 3.5 GHz or Intel Pentium G4560 3.5 GHz / AMD FX-4350 4.2 GHz",
+            "ОЗУ": "8 Гб",
+            "место на диске": "105 GB",
+            "сеть": "Широкополосное соединение",
+            "звук": "DirectX compatible"
+          },
+          "рекомендованные": {
+            "видеокарта": "NVIDIA® GeForce® GTX 1050 Ti или ATI Radeon™ RX560",
+            "процессор": "Processor Intel® Core™ i5 2400 3.4 GHz or i5 7400 3.5 GHz / AMD Ryzen R5 1600X 3.6 GHz",
+            "ОЗУ": "16 Гб",
+            "место на диске": "105 GB",
+            "сеть": "Широкополосное соединение",
+            "звук": "DirectX compatible"
+          }
+        },
+        "id": 62
+      }
+]
+}

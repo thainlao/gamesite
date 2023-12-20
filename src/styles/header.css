@@ -24,8 +24,10 @@
     text-decoration: none;
     font-size: 1.2rem;
     color: rgb(241, 232, 232);
-    transition: all 0.2s ease-in;
-}
+    transition: all 0.4s ease-in;
+&:hover{
+    color: orange;
+}}
 
 .header a::before {
     content: "";
@@ -35,7 +37,7 @@
     width: 0; 
     height: 2px;
     transform: translateY(5px);
-    background: #d7dfe6;
+    background: orange;
     transition: width 0.3s ease-in-out; 
 }
 
@@ -63,7 +65,7 @@
     color: rgb(241, 232, 232);
     transition: all 0.2s ease-in;
 &:hover{
-    color: rgb(199, 114, 114);
+    color: orange;
 }}
 
 .footer h2 {

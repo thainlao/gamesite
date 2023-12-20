@@ -153,51 +153,32 @@
 
 .ball1:hover {
     background-color: rgb(59, 110, 112);
-    transform: scale(1.04);
-    height: 130px;
-    width: 130px;
 }
 
 .ball2:hover {
     background-color: rgb(59, 91, 92);
-    transform: scale(1.04);
-    height: 136px;
-    width: 136px;
 }
 
 .ball3:hover {
     background-color: rgb(56, 99, 45);
-    transform: scale(1.04);
-    height: 110px;
-    width: 110px;
 }
 
 .ball4:hover {
     background-color: rgb(110, 59, 112);
-    transform: scale(1.04);
-    height: 185px;
-    width: 185px;
 }
 
 .ball5:hover {
     background-color: rgb(83, 31, 35);
     transform: scale(1.04);
-    height: 165px;
-    width: 165px;
 }
 
 .ball6:hover {
     background-color: rgb(128, 104, 55);
-    transform: scale(1.04);
-    height: 155px;
-    width: 155px;
 }
 
 .ball7:hover {
     background-color: rgb(45, 82, 36);
     transform: scale(1.04);
-    height: 180px;
-    width: 180px;
 }
 
 /* TEXT */

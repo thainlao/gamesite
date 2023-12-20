@@ -5,11 +5,14 @@ import '../styles/gamedetailed.css';
 import { useEffect, useState } from 'react';
 import ImageModal from '../pages/ImageModel';
 import '../styles/game.css';
+import freegames from '../json/freegames.json';
 
 const GameDetailed = () => {
   const [modalOpen, setModalOpen] = useState<boolean>(false);
   const [selectedImage, setSelectedImage] = useState<string>('');
 
+  const [imagesLoaded, setImagesLoaded] = useState<boolean>(false);
+  const [mainImageLoaded, setMainImageLoaded] = useState<boolean>(false);
 
   const openModal = (imageUrl: string) => {
     setSelectedImage(imageUrl);
@@ -21,25 +24,9 @@ const GameDetailed = () => {
     setModalOpen(false);
   };
 
-  const [scrollWidth, setScrollWidth] = useState(20);
-  
-  useEffect(() => {
-      const handleScroll = () => {
-          const scrollPercentage = (window.scrollY / (document.documentElement.scrollHeight - window.innerHeight)) * 100;
-          const newWidth = Math.min(90, 20 + scrollPercentage);
-          setScrollWidth(newWidth);
-      };
-
-      window.addEventListener('scroll', handleScroll);
-
-      return () => {
-          window.removeEventListener('scroll', handleScroll);
-      };
-  }, []);
-
   const { id } = useParams<{ id: any }>();
   const gameId = parseInt(id);
-  const game: IGame | undefined = games.топ_50_игр.find((g: IGame) => g.id === gameId);
+  const game: IGame | undefined = (games.топ_50_игр.find((g: IGame) => g.id === gameId) || freegames.freeGames.find((g: IGame) => g.id === gameId));
 
   if (!game) {
     return <div>Игра не найдена</div>;
@@ -63,11 +50,22 @@ const GameDetailed = () => {
     background: `linear-gradient(to top, ${circleClass} ${fillPercentage}%, transparent ${fillPercentage}%)`,
   };
 
-  const similarGames = games.топ_50_игр.filter((g: IGame) => g.id !== gameId && g.genre.some((genre) => game?.genre.includes(genre))).slice(0, 6);
-
+  const similarGames = (games.топ_50_игр || freegames.freeGames).filter((g: IGame) => g.id !== gameId && g.genre.some((genre) => game?.genre.includes(genre))).slice(0, 6);
+  const freeGames6 = freegames.freeGames.map((g) => g).slice(0, 6);
   useEffect(() => {
     window.scrollTo(0, 0);
   }, [id]);
+
+  useEffect(() => {
+    setImagesLoaded(false);
+
+    const loadImage = new Image();
+    loadImage.src = game.img;
+    loadImage.onload = () => {
+      setImagesLoaded(true);
+      setMainImageLoaded(true);
+    };
+  }, [id, game]);
 
 
   return (
@@ -83,7 +81,7 @@ const GameDetailed = () => {
         <div className='game_detailed_component'>
           <img className='hiddenimg' src='https://github.githubassets.com/assets/shape-0-df97fa6b0c27.svg'/> 
           <div>
-            <img className='image_deteiled' src={game.img}/>
+            <img className={`image_deteiled ${mainImageLoaded ? 'image-loaded' : ''}`} src={game.img}/>
             <div className='rating_images'>
             <div className='reting_inside'>
               <div className={`circle ${circleClass}`}style={circleStyle}><span>{metacriticRating}</span></div>
@@ -120,15 +118,19 @@ const GameDetailed = () => {
       <div className="verlinegame"></div> 
 
       <div className='screenshot_page'>
-      <h2>Всего скриншотов ({game.screenshots.length})</h2>
-      <div className='screenshot_container'>
-        {game.screenshots.map((screenshot, index) => (
-          <div key={index} onClick={() => openModal(screenshot)}>
-            <img src={screenshot} alt={`Screenshot ${index + 1}`} />
-          </div>
-        ))}
-      </div>
-      <div className="verlinegame"></div>        
+        <h2>Всего скриншотов ({game.screenshots.length})</h2>
+        <div className='screenshot_container'>
+          {imagesLoaded ? (
+            game.screenshots.map((screenshot, index) => (
+              <div key={index} onClick={() => openModal(screenshot)}>
+                <img src={screenshot} alt={`Screenshot ${index + 1}`} />
+              </div>
+            ))
+          ) : (
+            <div className='loading-animation'>Loading...</div>
+          )}
+        </div>
+        <div className="verlinegame"></div>
       </div>
 
       <div className="screenshot_page">
@@ -162,6 +164,17 @@ const GameDetailed = () => {
       <h2 className='title_text'>Похожие игры</h2>
       <div className='recomandation_section'>
           {similarGames.map((simGame: IGame) => (
+            <Link to={`/game/${simGame.id}`} className='rec_game'>
+              <h3 className=''>{simGame.название}</h3>
+              <img src={simGame.img} alt={simGame.название} />
+            </Link>
+          ))}
+      </div>
+
+      <div className="verlinegame"></div>
+      <h2 className='title_text'>Бесплатные игры</h2>
+      <div className='recomandation_section'>
+          {freeGames6.map((simGame: IGame) => (
             <Link to={`/game/${simGame.id}`} className='rec_game'>
               <h3 className=''>{simGame.название}</h3>
               <img src={simGame.img} alt={simGame.название} />
