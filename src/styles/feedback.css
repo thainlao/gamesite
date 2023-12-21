@@ -1,0 +1,115 @@
+.feedback {
+    position: relative;
+    background: linear-gradient(#18191a, #2a2b2d);
+}
+
+.feedback_container {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+    padding: 20px;
+    gap: 2rem;
+    height: 100vh;
+}
+
+.feedback_container h2 {
+    color: white;
+    font-weight: 100;
+}
+
+.bd_section {
+    display: flex;
+    align-items: center;
+    flex-direction: row;
+    justify-content: space-between;
+    gap: 2rem;
+}
+
+@media (max-width: 1000px) {
+    .bd_section {
+        flex-direction: column;
+        height: auto;
+    }
+}
+
+
+.fb_bg {
+    position: absolute;
+    left: 25%;
+    width: 350px;
+    height: 350px;
+    top: 25%;
+    transform: translate(-50%,-50%);
+    animation: rotate 25s infinite linear;
+}
+
+.feedback_input {
+    display: flex;
+    flex-direction: column;
+    align-items: start;
+    color: white;
+    gap: 1rem;
+    padding: 3rem;
+    position: relative;
+    justify-content: center;
+}
+
+.fb_img {
+    height: 90px;
+    width: 90px;
+}
+
+.feedback_input h3 {
+    font-weight: 100;
+    font-size: 1.3rem;
+    margin-bottom: 10px;
+}
+
+.feedback_input div {
+    display: flex;
+    flex-direction: column;
+    width: 100%;
+}
+
+.feedback_input input {
+    height: 55px;
+    padding: 9px;
+    font-size: 1rem;
+    color: white;
+    width: 100%;
+    background: transparent;
+    border: none;
+    border-bottom: 1px solid silver;
+}
+
+.feedback_input textarea {
+    height: 100px;
+    width: 400px;
+    color: white;
+    padding: 9px;
+    font-size: 1rem;
+    background: transparent;
+    border: none;
+    border-bottom: 1px solid silver;
+}
+
+.fb_text_section {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    flex-direction: column;
+    gap: 1rem;
+    color: white;
+    text-align: center;
+}
+
+.fb_text_section h2 {
+    font-size: 2rem;
+    font-weight: 300;
+}
+
+.fb_text_section h3 {
+    font-size: 1.7rem;
+    font-weight: 100;
+}

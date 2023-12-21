@@ -10,7 +10,7 @@ const Header = () => {
 
                 <div className='header_right'>
                     <a href='/games'>Подборки игр</a>
-                    <a href='/info'>Обратная связь</a>
+                    <a href='/feedback'>Обратная связь</a>
                     <a href='/about'>О нас</a>
                 </div>
             </div> 

@@ -11,7 +11,7 @@ const Footer = () => {
 
                 <div>
                     <a href='/'>Главная</a>
-                    <a href='/about'>О нас</a>
+                    <a href='/feedback'>О нас</a>
                     <a href='/games'>Подробрки игр</a>
                     <a href='/info'>tgames@gmail.com</a>
                 </div>

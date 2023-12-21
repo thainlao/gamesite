@@ -86,7 +86,7 @@ const Mainbody = () => {
             <div className={`games__section ${loaded ? 'loadedtext' : ''} `}>
               <div className='game__section_' ref={containerRef}>
                 <a className={`${loaded ? 'loadedtext' : ''}`} href='/games'>ВСЕ ИГРЫ</a>
-                <a className={`${loaded ? 'loadedtext' : ''}`} href='/info'>СВЯЗАТЬСЯ С НАМИ</a>
+                <a className={`${loaded ? 'loadedtext' : ''}`} href='/feedback'>СВЯЗАТЬСЯ С НАМИ</a>
                 <a className={`${loaded ? 'loadedtext' : ''}`} href='/about'>О НАС</a>
               </div>
             </div>

@@ -288,14 +288,12 @@
     margin-bottom: 25px;
     color: rgb(207, 199, 199);
     font-weight: 100;
-    line-height: 2rem;
+    line-height: 2.5rem;
     max-width: 80%;
     margin: 0 auto;
     font-size: 1.4rem;
     padding: 18px;
 }
-
-
 
 .screenshot_page h5 {
     color: white;

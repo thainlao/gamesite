@@ -4,6 +4,7 @@ import GameDetailed from './components/GameDetailed';
 import Header from './pages/Header';
 import Mainbody from './components/Mainbody';
 import Footer from './pages/Footer';
+import Feedback from './pages/Feedback';
 
 function App() {
 
@@ -14,6 +15,7 @@ function App() {
         <Route path='/' element={<Mainbody />}/>
         <Route path='/game/:id' element={<GameDetailed />} />
         <Route path='/games' element={<AllGames />}/>
+        <Route path='/feedback' element={<Feedback />}/>
       </Routes>
       <Footer />
   </Router>
