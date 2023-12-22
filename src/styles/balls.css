@@ -22,6 +22,15 @@
     animation: spinning 6s infinite linear;
 }
 
+@media (max-width: 1000px) {
+    .ball1 {
+        height: 120px;
+        width: 120px;
+        left: 10%;
+        top: 30%;
+    }
+}
+
 .ball2 {
     position: absolute;
     height: 120px;
@@ -104,6 +113,40 @@
     background: transparent;
     opacity: 0;
     animation: spinning 20s infinite linear;
+}
+
+@media (max-width: 1000px) {
+    .ball4 {
+        height: 120px;
+        width: 120px;
+        left: 50%;
+        top: 40%;
+    }
+}
+
+@media (max-width: 1000px) {
+    .ball5 {
+        left: 25%;
+        top: -8%;
+    }
+}
+
+@media (max-width: 1000px) {
+    .ball6 {
+        height: 120px;
+        width: 120px;
+        left: 30%;
+        top: 55%;
+    }
+}
+
+@media (max-width: 1000px) {
+    .ball7 {
+        height: 120px;
+        width: 120px;
+        left: 10%;
+        top: 45%;
+    }
 }
 
 .ball1.loaded {

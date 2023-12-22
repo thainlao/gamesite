@@ -30,6 +30,11 @@
     }
 }
 
+.user1 {
+    height: 30px;
+    width: 30px;
+}
+
 .game_detailed_component {
     display: flex;
     flex-direction: row;
@@ -257,6 +262,12 @@
     font-weight: 100;
     display: flex;
     gap: 1rem;
+}
+
+.game_detailed_lastpart a {
+    color: white;
+    opacity: 0.7;
+    text-decoration: underline;
 }
 
 .gamedetailed_line {
@@ -526,15 +537,32 @@ body.modal-open {
     color: white;
     padding: 12px;
     font-weight: 100;
-    display: flex;
-    justify-content: center;
 }
+
+.rec_text_section {
+    display: flex;
+    flex-direction: row;
+    justify-content: space-between;
+    align-items: center;
+    padding: 15px;
+}
+
+.title_a {
+    color: white;
+    padding: 12px;
+    font-weight: 100;
+    border: 1px solid white;
+    background-color: #131414;
+    transition: all 0.2s ease-in;
+&:hover{
+    opacity: 0.8;
+}}
 
 .loading-animation {
   display: inline-block;
   border: 4px solid rgba(0, 0, 0, 0.1);
   border-radius: 50%;
-  border-top: 4px solid #3498db;
+  border-top: 4px solid #ffffff;
   width: 24px;
   height: 24px;
   animation: spin 1s linear infinite;
@@ -544,4 +572,6 @@ body.modal-open {
   0% { transform: rotate(0deg); }
   100% { transform: rotate(360deg); }
 }
+
+
 

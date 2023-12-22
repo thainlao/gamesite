@@ -7,6 +7,7 @@ import diamong from '../assets/diamond.png';
 const Mainbody = () => {
   const containerRef = useRef(null);
   const [loaded, setLoaded] = useState(false);
+  const [scrollPosition, setScrollPosition] = useState(0);
 
   useEffect(() => {
     const handleIntersection = (entries: any) => {
@@ -15,6 +16,10 @@ const Mainbody = () => {
           setLoaded(true);
         }
       });
+    };
+
+    const handleScroll = () => {
+      setScrollPosition(window.scrollY);
     };
 
     const options = {
@@ -29,21 +34,38 @@ const Mainbody = () => {
       observer.observe(containerRef.current);
     }
 
+    window.addEventListener('scroll', handleScroll);
+
     return () => {
       observer.disconnect();
+      window.removeEventListener('scroll', handleScroll);
     };
   }, [loaded]);
+
+  const calculateTranslateX = (index: any) => {
+    const baseTranslate = '-50%, -50%';
+    const moveDistance = 15;
+
+    switch (index) {
+      case 1:
+        return `translate(-50%, -50%) translate(${moveDistance * scrollPosition}px)`;
+      case 2:
+        return `translate(-50%, -50%) translate(-${moveDistance * scrollPosition}px)`;
+      default:
+        return baseTranslate;
+    }
+  };
     
     return (
         <div>
             <div className='mainbody'>
                 <div className="mainbody_textsection">
-                    <div style={{display: 'flex', flexDirection:'column'}}>
+                    <div style={{display: 'flex', flexDirection:'column', padding: '16px'}}>
                         <strong>Добро пожаловать</strong>
                         <strong>Лучший сайт по играм</strong>
                     </div>
 
-                    <div>
+                    <div style={{padding: '9px'}}>
                         <h3>Мы создали лучшую платформу, где пользователи могут делиться своим опытом в играх</h3>
                     </div>
 
@@ -66,14 +88,15 @@ const Mainbody = () => {
               <div className='bluestamp2'></div>
             </div>
 
-            <div className='last_section'>
+
+            <div className='last_section' >
               <div className='last_section_one'>
-                <h2>24 / 7 ПОДДЕРЖКА</h2>
+                <h2>24 / 7 Поддержка</h2>
                 <div className='div1'></div>
               </div>
 
               <div className='last_section_one'>
-                <h2>17К Посещений в день</h2>
+                <h2>17 000 Посещений в день</h2>
                 <div className='div2'></div>
               </div>
 

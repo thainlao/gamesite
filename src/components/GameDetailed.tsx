@@ -6,6 +6,8 @@ import { useEffect, useState } from 'react';
 import ImageModal from '../pages/ImageModel';
 import '../styles/game.css';
 import freegames from '../json/freegames.json';
+import user1 from '../assets/1user.png';
+import user2 from '../assets/2user.png';
 
 const GameDetailed = () => {
   const [modalOpen, setModalOpen] = useState<boolean>(false);
@@ -67,6 +69,24 @@ const GameDetailed = () => {
     };
   }, [id, game]);
 
+  const showingUsers = () => {
+    if (game.online.includes('single') && game.online.includes('cooperative')) {
+      return (
+        <div className="user-images">
+          <img className='user1' src={user2} alt="Cooperative User" />
+          <img className='user1' src={user1} alt="Single User" />
+        </div>
+      );
+    } else if (game.online.includes('single')) {
+      return <img className='user1' src={user1} alt="Single User" />;
+    } else if (game.online.includes('cooperative')) {
+      return <img className='user1' src={user2} alt="Cooperative User" />;
+    } else {
+      return null;
+    }
+  };
+
+
 
   return (
     <div className='game_detailed_body'>
@@ -106,10 +126,11 @@ const GameDetailed = () => {
           </div>
 
           <div className='game_detailed_lastpart'>
-            <h2><span>Режим игры:</span>{game.online}</h2>
+            <h2><span>Режим игры:</span>{showingUsers()}</h2>
             <h4><span>Дата выхода:</span> {game['дата выхода']}</h4>
             <h5 className='platforms'><span>Платформа:</span> {game.платформы.map((item) => (<section>{item}</section>))}</h5>
             <h6><span>Разработчик:</span> {game.разработчик}</h6>
+            <h5><a href={`http://${game['сайт игры']}`} target="_blank">Сайт игры</a></h5>
           </div>
           <div className='swinging'><div className="swingingball"></div></div>
         </div>
@@ -127,7 +148,7 @@ const GameDetailed = () => {
               </div>
             ))
           ) : (
-            <div className='loading-animation'>Loading...</div>
+            <div className='loading-animation'></div>
           )}
         </div>
         <div className="verlinegame"></div>
@@ -161,7 +182,10 @@ const GameDetailed = () => {
       </div>
       <div className="verlinegame"></div>
 
-      <h2 className='title_text'>Похожие игры</h2>
+      <div className='rec_text_section'>
+        <h2 className='title_text'>Похожие игры</h2>
+        <a className='title_a' href='/games'>Показать еще</a>
+      </div>
       <div className='recomandation_section'>
           {similarGames.map((simGame: IGame) => (
             <Link to={`/game/${simGame.id}`} className='rec_game'>
@@ -172,7 +196,10 @@ const GameDetailed = () => {
       </div>
 
       <div className="verlinegame"></div>
-      <h2 className='title_text'>Бесплатные игры</h2>
+      <div className='rec_text_section'>
+        <h2 className='title_text'>Бесплатные игры</h2>
+        <a className='title_a' href='/freegames'>Показать все</a>
+      </div>
       <div className='recomandation_section'>
           {freeGames6.map((simGame: IGame) => (
             <Link to={`/game/${simGame.id}`} className='rec_game'>

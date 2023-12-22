@@ -25,14 +25,18 @@
     font-size: 1.5rem;
     position: relative;
     z-index: 2;
+    opacity: 0.7;
 }
 
 .mainbody strong {
-    color: #ffffff;
     font-size: 3rem;
     font-weight: 900;
     position: relative;
     z-index: 2;
+    background-image: linear-gradient(to right, #ce3925, #6885bb); /* Green to Yellow */
+    -webkit-background-clip: text;
+    color: transparent;
+    background-clip: text;
 }
 
 .mainbody button {
@@ -239,6 +243,13 @@
     overflow: hidden;
 }
 
+@media (max-width: 1000px) {
+    .last_section {
+        flex-direction: column;
+        height: 140vh;
+    }
+}
+
 .last_section_one {
     position: relative;
 }
@@ -257,7 +268,7 @@
 }
 
 .last_section h2 {
-    font-weight: 100;
+    font-weight: 400;
     z-index: 3;
     position: relative;
     font-size: 1.5rem;

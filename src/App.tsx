@@ -5,6 +5,8 @@ import Header from './pages/Header';
 import Mainbody from './components/Mainbody';
 import Footer from './pages/Footer';
 import Feedback from './pages/Feedback';
+import Freegames from './pages/FreeGames';
+import About from './pages/About';
 
 function App() {
 
@@ -16,6 +18,8 @@ function App() {
         <Route path='/game/:id' element={<GameDetailed />} />
         <Route path='/games' element={<AllGames />}/>
         <Route path='/feedback' element={<Feedback />}/>
+        <Route path='/freegames' element={<Freegames />}/>
+        <Route path='/about' element={<About />}/>
       </Routes>
       <Footer />
   </Router>
