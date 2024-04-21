@@ -41,20 +41,6 @@ const Mainbody = () => {
       window.removeEventListener('scroll', handleScroll);
     };
   }, [loaded]);
-
-  const calculateTranslateX = (index: any) => {
-    const baseTranslate = '-50%, -50%';
-    const moveDistance = 15;
-
-    switch (index) {
-      case 1:
-        return `translate(-50%, -50%) translate(${moveDistance * scrollPosition}px)`;
-      case 2:
-        return `translate(-50%, -50%) translate(-${moveDistance * scrollPosition}px)`;
-      default:
-        return baseTranslate;
-    }
-  };
     
     return (
         <div>
