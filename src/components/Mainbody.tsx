@@ -9,6 +9,8 @@ const Mainbody = () => {
   const [loaded, setLoaded] = useState(false);
   const [scrollPosition, setScrollPosition] = useState(0);
 
+  console.log(scrollPosition);
+  
   useEffect(() => {
     const handleIntersection = (entries: any) => {
       entries.forEach((entry: any) => {
