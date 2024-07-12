@@ -1,4 +1,4 @@
-import { Link, useParams } from 'react-router-dom';
+import { Link, useNavigate, useParams } from 'react-router-dom';
 import games from '../json/top_50games.json';
 import { IGame } from '../types';
 import '../styles/gamedetailed.css';
@@ -69,6 +69,8 @@ const GameDetailed = () => {
     };
   }, [id, game]);
 
+  const navigate = useNavigate()
+
   const showingUsers = () => {
     if (game.online.includes('single') && game.online.includes('cooperative')) {
       return (
@@ -92,8 +94,8 @@ const GameDetailed = () => {
     <div className='game_detailed_body'>
 
       <div className='navigation'>
-        <a href='/'>Главная / </a>
-        <a href='/games'>Игры / </a>
+        <a onClick={() => navigate('/')}>Главная / </a>
+        <a onClick={() => navigate('/games')}>Игры / </a>
         <a>{game.название}</a>
       </div>
 
@@ -130,7 +132,7 @@ const GameDetailed = () => {
             <h4><span>Дата выхода:</span> {game['дата выхода']}</h4>
             <h5 className='platforms'><span>Платформа:</span> {game.платформы.map((item) => (<section>{item}</section>))}</h5>
             <h6><span>Разработчик:</span> {game.разработчик}</h6>
-            <h5><a href={`http://${game['сайт игры']}`} target="_blank">Сайт игры</a></h5>
+            <h5><a onClick={() => navigate(`http://${game['сайт игры']}`)} target="_blank">Сайт игры</a></h5>
           </div>
           <div className='swinging'><div className="swingingball"></div></div>
         </div>
@@ -184,7 +186,7 @@ const GameDetailed = () => {
 
       <div className='rec_text_section'>
         <h2 className='title_text'>Похожие игры</h2>
-        <a className='title_a' href='/games'>Показать еще</a>
+        <a className='title_a' onClick={() => navigate('/games')}>Показать еще</a>
       </div>
       <div className='recomandation_section'>
           {similarGames.map((simGame: IGame) => (
@@ -198,7 +200,7 @@ const GameDetailed = () => {
       <div className="verlinegame"></div>
       <div className='rec_text_section'>
         <h2 className='title_text'>Бесплатные игры</h2>
-        <a className='title_a' href='/freegames'>Показать все</a>
+        <a className='title_a' onClick={() => navigate('/freegames')}>Показать все</a>
       </div>
       <div className='recomandation_section'>
           {freeGames6.map((simGame: IGame) => (

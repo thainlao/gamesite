@@ -1,6 +1,9 @@
+import { useNavigate } from 'react-router-dom';
 import '../styles/header.css';
 
 const Footer = () => {
+    const navigate = useNavigate();
+    
     return (
         <div>
             <div className="horline"></div>
@@ -10,10 +13,10 @@ const Footer = () => {
                 </div>
 
                 <div>
-                    <a href='/'>Главная</a>
-                    <a href='/feedback'>О нас</a>
-                    <a href='/games'>Подробрки игр</a>
-                    <a href='/info'>tgames@gmail.com</a>
+                    <a onClick={() => navigate('/')}>Главная</a>
+                    <a onClick={() => navigate('/feedback')}>О нас</a>
+                    <a onClick={() => navigate('/games')} >Подробрки игр</a>
+                    <a onClick={() => navigate('/info')} >tgames@gmail.com</a>
                 </div>
             </div>            
         </div>

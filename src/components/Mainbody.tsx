@@ -3,6 +3,7 @@ import Balls from '../pages/Balls';
 import Mainpage2 from '../pages/Mainpage2';
 import '../styles/mainbody.css';
 import diamong from '../assets/diamond.png';
+import { useNavigate } from 'react-router-dom';
 
 const Mainbody = () => {
   const containerRef = useRef(null);
@@ -43,6 +44,8 @@ const Mainbody = () => {
       window.removeEventListener('scroll', handleScroll);
     };
   }, [loaded]);
+
+  const navigate = useNavigate();
     
     return (
         <div>
@@ -96,9 +99,9 @@ const Mainbody = () => {
 
             <div className={`games__section ${loaded ? 'loadedtext' : ''} `}>
               <div className='game__section_' ref={containerRef}>
-                <a className={`${loaded ? 'loadedtext' : ''}`} href='/games'>ВСЕ ИГРЫ</a>
-                <a className={`${loaded ? 'loadedtext' : ''}`} href='/feedback'>СВЯЗАТЬСЯ С НАМИ</a>
-                <a className={`${loaded ? 'loadedtext' : ''}`} href='/about'>О НАС</a>
+                <a className={`${loaded ? 'loadedtext' : ''}`} onClick={() => navigate('/games')}>ВСЕ ИГРЫ</a>
+                <a className={`${loaded ? 'loadedtext' : ''}`} onClick={() => navigate('/feedback')}>СВЯЗАТЬСЯ С НАМИ</a>
+                <a className={`${loaded ? 'loadedtext' : ''}`} onClick={() => navigate('/about')}>О НАС</a>
               </div>
             </div>
 
