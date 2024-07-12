@@ -101,7 +101,6 @@ const Mainbody = () => {
               <div className='game__section_' ref={containerRef}>
                 <a className={`${loaded ? 'loadedtext' : ''}`} onClick={() => navigate('/games')}>ВСЕ ИГРЫ</a>
                 <a className={`${loaded ? 'loadedtext' : ''}`} onClick={() => navigate('/feedback')}>СВЯЗАТЬСЯ С НАМИ</a>
-                <a className={`${loaded ? 'loadedtext' : ''}`} onClick={() => navigate('/about')}>О НАС</a>
               </div>
             </div>
 

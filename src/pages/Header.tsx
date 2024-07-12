@@ -28,7 +28,6 @@ const Header = () => {
                         : <div></div>}
                     </div>
                     <a onClick={() => navigate('/feedback')}>Обратная связь</a>
-                    <a onClick={() => navigate('/about')}>О нас</a>
                 </div>
             </div> 
             <div className="horline"></div>           
